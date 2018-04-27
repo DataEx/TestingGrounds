@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\TestingGrounds.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{1D930230-DB7F-4E37-89A9-ABCE39E16C2E}</UniqueIdentifier>
+			<UniqueIdentifier>{B9A9354F-59A0-46BE-87CF-99465FC44A41}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\TestingGrounds.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{914CE25F-FB68-406A-8F53-8547931318C3}</UniqueIdentifier>
+			<UniqueIdentifier>{F40C92A7-EA9A-4309-82BC-9649BBE515E8}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,20 +31,8 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\TestingGrounds">
-			<UniqueIdentifier>{BE94BEC9-2A1A-4F18-BD5A-A84F586B465E}</UniqueIdentifier>
+			<UniqueIdentifier>{8C0D4489-0CF9-4531-8838-D78DDF1C49CA}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\Source\TestingGrounds\ChooseNextWaypoint.cpp">
-			<Filter>Source\TestingGrounds</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGrounds\ChooseNextWaypoint.h">
-			<Filter>Source\TestingGrounds</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TestingGrounds\PatrolRoute.cpp">
-			<Filter>Source\TestingGrounds</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGrounds\PatrolRoute.h">
-			<Filter>Source\TestingGrounds</Filter>
-		</ClInclude >
 		<None Include="..\..\Source\TestingGrounds\TestingGrounds.Build.cs">
 			<Filter>Source\TestingGrounds</Filter>
 		</None >
@@ -52,12 +40,6 @@
 			<Filter>Source\TestingGrounds</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\TestingGrounds\TestingGrounds.h">
-			<Filter>Source\TestingGrounds</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TestingGrounds\TestingGroundsCharacter.cpp">
-			<Filter>Source\TestingGrounds</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGrounds\TestingGroundsCharacter.h">
 			<Filter>Source\TestingGrounds</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\TestingGrounds\TestingGroundsGameMode.cpp">
@@ -72,29 +54,38 @@
 		<ClInclude Include="..\..\Source\TestingGrounds\TestingGroundsHUD.h">
 			<Filter>Source\TestingGrounds</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\Source\TestingGrounds\TestingGroundsProjectile.cpp">
-			<Filter>Source\TestingGrounds</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGrounds\TestingGroundsProjectile.h">
-			<Filter>Source\TestingGrounds</Filter>
-		</ClInclude >
-		<Filter Include="Source\TestingGrounds\TP_ThirdPerson">
-			<UniqueIdentifier>{78B147E9-505F-4F2C-9E50-38377B0D7171}</UniqueIdentifier>
+		<Filter Include="Source\TestingGrounds\NPC">
+			<UniqueIdentifier>{A59669CA-BA42-4877-A840-F22F2E87AFFE}</UniqueIdentifier>
 		</Filter>
-		<ClInclude Include="..\..\Source\TestingGrounds\TP_ThirdPerson\TP_ThirdPerson.h">
-			<Filter>Source\TestingGrounds\TP_ThirdPerson</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\TestingGrounds\TP_ThirdPerson\TP_ThirdPersonCharacter.cpp">
-			<Filter>Source\TestingGrounds\TP_ThirdPerson</Filter>
+		<ClCompile Include="..\..\Source\TestingGrounds\NPC\ChooseNextWaypoint.cpp">
+			<Filter>Source\TestingGrounds\NPC</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGrounds\TP_ThirdPerson\TP_ThirdPersonCharacter.h">
-			<Filter>Source\TestingGrounds\TP_ThirdPerson</Filter>
+		<ClInclude Include="..\..\Source\TestingGrounds\NPC\ChooseNextWaypoint.h">
+			<Filter>Source\TestingGrounds\NPC</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\Source\TestingGrounds\TP_ThirdPerson\TP_ThirdPersonGameMode.cpp">
-			<Filter>Source\TestingGrounds\TP_ThirdPerson</Filter>
+		<ClCompile Include="..\..\Source\TestingGrounds\NPC\PatrolRoute.cpp">
+			<Filter>Source\TestingGrounds\NPC</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\Source\TestingGrounds\TP_ThirdPerson\TP_ThirdPersonGameMode.h">
-			<Filter>Source\TestingGrounds\TP_ThirdPerson</Filter>
+		<ClInclude Include="..\..\Source\TestingGrounds\NPC\PatrolRoute.h">
+			<Filter>Source\TestingGrounds\NPC</Filter>
+		</ClInclude >
+		<Filter Include="Source\TestingGrounds\Player">
+			<UniqueIdentifier>{0542C1C3-D745-4EFF-931A-D4CF5720A983}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TestingGrounds\Player\FirstPersonCharacter.cpp">
+			<Filter>Source\TestingGrounds\Player</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TestingGrounds\Player\FirstPersonCharacter.h">
+			<Filter>Source\TestingGrounds\Player</Filter>
+		</ClInclude >
+		<Filter Include="Source\TestingGrounds\Weapons">
+			<UniqueIdentifier>{510D85EB-E92D-47CD-BFFF-3AC42FBA134C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\TestingGrounds\Weapons\BallProjectile.cpp">
+			<Filter>Source\TestingGrounds\Weapons</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\TestingGrounds\Weapons\BallProjectile.h">
+			<Filter>Source\TestingGrounds\Weapons</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>
