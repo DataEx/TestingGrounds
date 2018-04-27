@@ -787,51 +787,6 @@
 			"IsPrecompiled" : true
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll",
-			"Type" : "DynamicLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.pdb",
-			"Type" : "SymbolFile",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-OculusHMD.lib",
-			"Type" : "ImportLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll",
-			"Type" : "DynamicLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.pdb",
-			"Type" : "SymbolFile",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-OculusInput.lib",
-			"Type" : "ImportLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll",
-			"Type" : "DynamicLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.pdb",
-			"Type" : "SymbolFile",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-OculusEditor.lib",
-			"Type" : "ImportLibrary",
-			"IsPrecompiled" : true
-		},
-		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll",
 			"Type" : "DynamicLibrary",
 			"IsPrecompiled" : true
@@ -903,36 +858,6 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/RuntimePhysXCooking/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-RuntimePhysXCooking.lib",
-			"Type" : "ImportLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll",
-			"Type" : "DynamicLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.pdb",
-			"Type" : "SymbolFile",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SteamVR.lib",
-			"Type" : "ImportLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll",
-			"Type" : "DynamicLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.pdb",
-			"Type" : "SymbolFile",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-SteamVRController.lib",
 			"Type" : "ImportLibrary",
 			"IsPrecompiled" : true
 		},
@@ -5554,21 +5479,6 @@
 			"IsPrecompiled" : true
 		},
 		{
-			"Path" : "$(EngineDir)/Binaries/Win64/UE4Editor-InputDevice.dll",
-			"Type" : "DynamicLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/Win64/UE4Editor-InputDevice.pdb",
-			"Type" : "SymbolFile",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-InputDevice.lib",
-			"Type" : "ImportLibrary",
-			"IsPrecompiled" : true
-		},
-		{
 			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor.modules",
 			"Type" : "RequiredResource"
 		}
@@ -5728,10 +5638,6 @@
 			"Type" : "UFS"
 		},
 		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Oculus/OculusVR/OculusVR.uplugin",
-			"Type" : "UFS"
-		},
-		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/PhysXVehicles/PhysXVehicles.uplugin",
 			"Type" : "UFS"
 		},
@@ -5741,10 +5647,6 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Plugins/Runtime/RuntimePhysXCooking/RuntimePhysXCooking.uplugin",
-			"Type" : "UFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin",
 			"Type" : "UFS"
 		},
 		{
@@ -7858,14 +7760,6 @@
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/ApexFrameworkPROFILE_x64.pdb",
 			"Type" : "DebugNonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll",
-			"Type" : "NonUFS"
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/ThirdParty/Oculus/OVRPlugin/OVRPlugin/Win64/OVRPlugin.dll",
-			"Type" : "NonUFS"
 		},
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/NvClothPROFILE_x64.dll",

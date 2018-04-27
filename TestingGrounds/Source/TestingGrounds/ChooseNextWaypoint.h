@@ -26,7 +26,6 @@ protected:
 	struct FBlackboardKeySelector WayPointKey;
 
 private:
-	TArray<AActor*> GetPatrolPoints(APawn* ControlledPawn);
 	int32 SetNextWaypoint(UBehaviorTreeComponent& OwnerComp, TArray<AActor*> PatrolPoints);
 	void CycleIndex(int32 Index, TArray<AActor*> PatrolPoints, UBehaviorTreeComponent& OwnerComp);
 };

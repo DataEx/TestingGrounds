@@ -20,8 +20,8 @@ void EmptyLinkFunctionForGeneratedCodeTestingGrounds_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/TestingGrounds")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x8F2A45DA;
-			Guid.B = 0x534B5A07;
+			Guid.A = 0xE4821D9C;
+			Guid.B = 0x4F97F6DB;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
