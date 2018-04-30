@@ -1,4 +1,4 @@
-﻿Log file open, 04/27/18 16:45:43
+﻿Log file open, 04/30/18 10:17:48
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: TestingGrounds
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1446946810) SRandInit(1446946810).
+LogInit: Display: RandInit(1702211666) SRandInit(1702211667).
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.234104
+LogStats: Stats thread started at 0.234922
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -109,388 +109,464 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.27-19.45.44:118][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.27-19.45.44:118][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.27-19.45.44:130][  0]LogInit: Computer: ESPN128007
-[2018.04.27-19.45.44:130][  0]LogInit: User: ESPN
-[2018.04.27-19.45.44:130][  0]LogInit: CPU Page size=4096, Cores=6
-[2018.04.27-19.45.44:130][  0]LogInit: High frequency timer resolution =3.514609 MHz
-[2018.04.27-19.45.44:130][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
-[2018.04.27-19.45.44:130][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.27-19.45.44:130][  0]LogMemory: Process Physical Memory: 280.83 MB used, 280.83 MB peak
-[2018.04.27-19.45.44:130][  0]LogMemory: Process Virtual Memory: 282.67 MB used, 282.67 MB peak
-[2018.04.27-19.45.44:130][  0]LogMemory: Physical Memory: 9484.48 MB used,  23204.00 MB free, 32688.48 MB total
-[2018.04.27-19.45.44:130][  0]LogMemory: Virtual Memory: 713.08 MB used,  23204.00 MB free, 134217728.00 MB total
-[2018.04.27-19.45.44:283][  0]LogInit: Using OS detected language (en-US).
-[2018.04.27-19.45.44:283][  0]LogInit: Using OS detected locale (en-US).
-[2018.04.27-19.45.44:286][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.04.27-19.45.44:944][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.27-19.45.44:999][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.04.27-19.45.44:999][  0]LogD3D11RHI:       8079/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.04.27-19.45.45:001][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.04.27-19.45.45:001][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.04.27-19.45.45:001][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.27-19.45.45:010][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.27-19.45.45:010][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.27-19.45.45:010][  0]LogWindows: EnumDisplayDevices:
-[2018.04.27-19.45.45:010][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2018.04.27-19.45.45:010][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.04.27-19.45.45:011][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.04.27-19.45.45:011][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.04.27-19.45.45:011][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.04.27-19.45.45:011][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.04.27-19.45.45:011][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.04.27-19.45.45:011][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.04.27-19.45.45:011][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.04.27-19.45.45:044][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.27-19.45.45:061][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.27-19.45.45:147][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Intermediate/Shaders/WorkingDirectory/8868/).
-[2018.04.27-19.45.45:147][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ESPN/AppData/Local/Temp/UnrealShaderWorkingDir/B23320E64756496503C2409BCAEAAF5F/'.
-[2018.04.27-19.45.45:147][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.27-19.45.46:020][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.27-19.45.46:072][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.27-19.45.46:125][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.27-19.45.46:172][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.27-19.45.46:220][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.27-19.45.46:267][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.27-19.45.46:316][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.27-19.45.46:367][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.27-19.45.46:412][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.27-19.45.46:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.27-19.45.46:510][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.27-19.45.46:556][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.27-19.45.46:602][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.27-19.45.46:651][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.27-19.45.46:701][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.27-19.45.46:800][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.27-19.45.46:800][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.27-19.45.46:836][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.27-19.45.46:923][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.27-19.45.46:950][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.27-19.45.46:998][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.27-19.45.47:047][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.27-19.45.47:095][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.27-19.45.47:145][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.27-19.45.47:145][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.27-19.45.47:605][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.27-19.45.47:698][  0]LogDerivedDataCache: Loaded boot cache 0.09s 95MB C:/Users/ESPN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.04.27-19.45.47:699][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ESPN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.04.27-19.45.47:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.27-19.45.47:699][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.27-19.45.47:699][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.27-19.45.47:699][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.27-19.45.47:714][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.27-19.45.47:727][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ESPN/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.27-19.45.47:737][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.27-19.45.47:738][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.27-19.45.47:738][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.27-19.45.47:738][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.27-19.45.47:999][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
-[2018.04.27-19.45.48:108][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.27-19.45.48:464][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.27-19.45.48:505][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.27-19.45.48:505][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.27-19.45.48:505][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.27-19.45.48:505][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.27-19.45.48:505][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.27-19.45.48:535][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.04.27-19.45.48:943][  0]LogNetVersion: TestingGrounds , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1059972000)
-[2018.04.27-19.45.49:132][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.031299 seconds
-[2018.04.27-19.45.49:139][  0]LogUObjectArray: 35418 objects as part of root set at end of initial load.
-[2018.04.27-19.45.49:139][  0]LogUObjectAllocator: 7448080 out of 0 bytes used by permanent object pool.
-[2018.04.27-19.45.49:139][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.27-19.45.49:196][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.27-19.45.51:643][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.27-19.45.51:682][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.27-19.45.52:483][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.27-19.45.52:908][  0]SourceControl: Source control is disabled
-[2018.04.27-19.45.52:908][  0]SourceControl: Source control is disabled
-[2018.04.27-19.45.52:957][  0]SourceControl: Source control is disabled
-[2018.04.27-19.45.53:006][  0]SourceControl: Source control is disabled
-[2018.04.27-19.45.53:576][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.27-19.45.53:994][  0]LogEngine: Initializing Engine...
-[2018.04.27-19.45.54:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.27-19.45.54:212][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.27-19.45.54:337][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.27-19.45.54:347][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.27-19.45.54:365][  0]LogInit: FAudioDevice initialized.
-[2018.04.27-19.45.54:459][  0]LogDerivedDataCache: Saved boot cache 0.09s 95MB C:/Users/ESPN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.04.27-19.45.54:494][  0]LogInit: Texture streaming: Enabled
-[2018.04.27-19.45.54:606][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.27-19.45.54:827][  0]LogInit: Transaction tracking system initialized
-[2018.04.27-19.45.55:135][  0]BlueprintLog: New page: Editor Load
-[2018.04.27-19.45.56:030][  0]LocalizationService: Localization service is disabled
-[2018.04.27-19.45.56:718][  0]LogConsoleResponse: Display: 
-[2018.04.27-19.45.56:897][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.27-19.45.56:897][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.27-19.45.56:897][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.27-19.45.57:179][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/' took 0.01s
-[2018.04.27-19.45.57:937][  0]SourceControl: Source control is disabled
-[2018.04.27-19.45.57:937][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Levels/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.27-19.45.57:938][  0]LightingResults: New page: Lighting Build
-[2018.04.27-19.45.57:977][  0]MapCheck: New page: Map Check
-[2018.04.27-19.45.57:977][  0]LightingResults: New page: Lighting Build
-[2018.04.27-19.45.58:111][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
-[2018.04.27-19.45.58:120][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0016.11] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 32 ms] (/Game/NPC/Character/Ue4ASP_Character.Ue4ASP_Character)
-[2018.04.27-19.45.58:349][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.27-19.45.58:359][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.27-19.45.58:741][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.27-19.45.58:801][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.482ms to complete.
-[2018.04.27-19.45.58:801][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.864
-[2018.04.27-19.45.58:980][  0]LogCollectionManager: Loaded 0 collections in 0.001844 seconds
-[2018.04.27-19.45.59:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/Collections/' took 0.01s
-[2018.04.27-19.45.59:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Developers/ESPN/Collections/' took 0.01s
-[2018.04.27-19.45.59:066][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Collections/' took 0.01s
-[2018.04.27-19.45.59:066][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.04.27-19.45.59:077][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2385 classes and 496 folders.
-[2018.04.27-19.45.59:140][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0036 seconds. Added 0 classes and 0 folders.
-[2018.04.27-19.45.59:184][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0032 seconds. Added 0 classes and 0 folders.
-[2018.04.27-19.45.59:234][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
-[2018.04.27-19.45.59:255][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.27-19.45.59:258][  0]LogSlate: Took 0.000152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.27-19.45.59:262][  0]LogSlate: Took 0.000205 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.27-19.45.59:264][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2018.04.27-19.45.59:378][  0]LogRenderer: Reallocating scene render targets to support 1184x652 Format 10 NumSamples 1 (Frame:1).
-[2018.04.27-19.45.59:549][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0042 seconds. Added 1 classes and 2 folders.
-[2018.04.27-19.45.59:549][  0]LogLoad: (Engine Initialization) Total time: 17.53 seconds
-[2018.04.27-19.45.59:549][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.27-19.45.59:550][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.04.27-19.45.59:550][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.04.27-19.45.59:913][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.27-19.46.00:230][  1]LogAssetRegistry: Asset discovery search completed in 12.2545 seconds
-[2018.04.27-19.46.00:232][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.27-19.46.00:232][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000150 seconds (updated 0 objects)
-[2018.04.27-19.46.06:150][199]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.27-19.46.06:490][199]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0036 seconds. Added 113 classes and 0 folders.
-[2018.04.27-19.46.07:084][199]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.27-19.46.07:151][199]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.27-19.46.13:430][349]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.27-19.46.15:847][464]LogRenderer: Reallocating scene render targets to support 1184x792 Format 10 NumSamples 1 (Frame:1).
-[2018.04.27-19.50.57:890][347]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0032 seconds. Added 1 classes and 2 folders.
-[2018.04.27-19.50.58:001][347]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.04.27-19.50.58:037][347]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
-[2018.04.27-19.50.58:334][347]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0033 seconds. Added 1 classes and 0 folders.
-[2018.04.27-19.50.58:339][348]LogRenderer: Reallocating scene render targets to support 1184x1008 Format 10 NumSamples 1 (Frame:1).
-[2018.04.27-19.51.08:046][377]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
-[2018.04.27-19.51.08:077][377]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) - call TermArticulated first.
-[2018.04.27-19.52.13:764][893]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2018.04.27-19.52.13:793][893]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) - call TermArticulated first.
-[2018.04.27-19.53.54:924][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:925][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:925][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:Crouch Button Down' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:925][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:Jump Button Down' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:925][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:CameraBoom' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:925][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:PlayerCamera' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:926][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:PatrolRoute' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:926][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:UserConstructionScript' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:926][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:ExecuteUbergraph_Ue4ASP_Character' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:926][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_180' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:926][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_268' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:926][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_256' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:927][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_243' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:927][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:Crouch Button Down' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:927][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:Jump Button Down' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:927][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:CameraBoom' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:927][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:PlayerCamera' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:927][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:PatrolRoute' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:928][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:SkeletalMesh' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:928][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:UserConstructionScript' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:928][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:ExecuteUbergraph_Ue4ASP_Character' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:928][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_MoveForward_K2Node_InputAxisEvent_180' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:928][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_LookUp_K2Node_InputAxisEvent_268' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:929][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_Turn_K2Node_InputAxisEvent_256' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.54:929][540]LogMetaData: Removing '/Game/NPC/Behavior/Ue4ASP_Character.SKEL_Ue4ASP_Character_C:InpAxisEvt_MoveRight_K2Node_InputAxisEvent_243' ref from Metadata '/Game/NPC/Character/Ue4ASP_Character.PackageMetaData'
-[2018.04.27-19.53.55:045][540]LogSavePackage: Save=65.73ms
-[2018.04.27-19.53.55:045][540]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/Ue4ASP_Character1A26A20D4DAE244B1E536FBD3F14D20A.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset'
-[2018.04.27-19.53.55:051][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset
-[2018.04.27-19.53.55:071][540]LogSavePackage: Save=4.48ms
-[2018.04.27-19.53.55:072][540]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/Ue4ASP_Character9FDCE9E34A8397F99B9F1CA3C0CCD3A5.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Character/Ue4ASP_Character.uasset'
-[2018.04.27-19.53.55:074][540]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Character/Ue4ASP_Character.uasset
-[2018.04.27-19.53.58:721][882]LogSavePackage: Save=565.15ms
-[2018.04.27-19.53.58:721][882]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/FirstPersonExampleMap170EE5164BBFB723716FA08974911B7C.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Levels/FirstPersonExampleMap.umap'
-[2018.04.27-19.53.58:727][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Levels/FirstPersonExampleMap.umap
-[2018.04.27-19.53.58:758][882]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.719
-[2018.04.27-19.53.58:981][882]LogSavePackage: Save=196.25ms
-[2018.04.27-19.53.58:981][882]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/UE4ASP_HeroTPP_AnimBlueprintDF7DE3124A1FCC7B1D5CB196DA5F9F94.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Animations/UE4ASP_HeroTPP_AnimBlueprint.uasset'
-[2018.04.27-19.53.58:985][882]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Animations/UE4ASP_HeroTPP_AnimBlueprint.uasset
-[2018.04.27-19.54.05:060][180]LogSavePackage: Save=66.43ms
-[2018.04.27-19.54.05:060][180]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/Ue4ASP_Character533E8E5541B4E6CDD9845F8F62B10389.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset'
-[2018.04.27-19.54.05:063][180]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset
-[2018.04.27-19.54.05:985][249]LogSavePackage: Save=55.25ms
-[2018.04.27-19.54.05:985][249]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/Ue4ASP_CharacterFABF325E40CD3099591A6997A482CCCF.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset'
-[2018.04.27-19.54.05:987][249]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset
-[2018.04.27-19.57.15:941][524]LogEditorTransaction: Undo Modify Component(s)
-[2018.04.27-19.57.16:238][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.04.27-19.57.16:240][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
-[2018.04.27-19.57.16:242][524]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2018.04.27-19.57.16:262][524]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.27-19.58.57:458][370]BlueprintLog: New page: Compile Ue4ASP_Character
-[2018.04.27-19.58.57:508][370]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
-[2018.04.27-19.58.57:931][370]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0795.92] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 472 ms] (/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character)
-[2018.04.27-19.59.06:988][715]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.27-19.59.07:030][715]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-19.59.07:030][715]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.27-19.59.07:031][715]PIE: New page: PIE session: FirstPersonExampleMap (Apr 27, 2018, 1:59:07 PM)
-[2018.04.27-19.59.07:031][715]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstPersonExampleMap
-[2018.04.27-19.59.07:050][715]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018193s)
-[2018.04.27-19.59.07:051][715]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.27-19.59.07:051][715]LogPlayLevel: PIE: World Init took: (0.000997s)
-[2018.04.27-19.59.07:051][715]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Levels/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019896s)
-[2018.04.27-19.59.07:080][715]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.27-19.59.07:092][715]LogInit: FAudioDevice initialized.
-[2018.04.27-19.59.07:132][715]LogLoad: Game class is 'TestingGroundsGameMode'
-[2018.04.27-19.59.07:135][715]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.27-16.59.07
-[2018.04.27-19.59.07:136][715]LogWorld: Bringing up level for play took: 0.003180
-[2018.04.27-19.59.07:178][715]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0033 seconds. Added 11 classes and 0 folders.
-[2018.04.27-19.59.07:179][715]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstPersonExampleMap 0.358
-[2018.04.27-19.59.07:179][715]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-19.59.07:183][715]LogBlueprintUserMessages: [NPC_AI_BP_C_0] Ue4ASP_Character_630 Player AISense_Sight
-[2018.04.27-19.59.10:348][ 88]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-19.59.10:385][ 88]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-19.59.20:772][941]LogSavePackage: Save=63.81ms
-[2018.04.27-19.59.20:772][941]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/Ue4ASP_Character4E30686940FCDBD8C6D926A6D6E87CB4.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset'
-[2018.04.27-19.59.20:776][941]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset
-[2018.04.27-20.00.12:674][282]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.27-20.00.12:693][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-20.00.12:693][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.27-20.00.12:694][282]PIE: New page: PIE session: FirstPersonExampleMap (Apr 27, 2018, 2:00:12 PM)
-[2018.04.27-20.00.12:694][282]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstPersonExampleMap
-[2018.04.27-20.00.12:713][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018687s)
-[2018.04.27-20.00.12:714][282]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.27-20.00.12:715][282]LogPlayLevel: PIE: World Init took: (0.001319s)
-[2018.04.27-20.00.12:715][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Levels/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020779s)
-[2018.04.27-20.00.12:775][282]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.27-20.00.12:784][282]LogInit: FAudioDevice initialized.
-[2018.04.27-20.00.12:816][282]LogLoad: Game class is 'TestingGroundsGameMode'
-[2018.04.27-20.00.12:819][282]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.27-17.00.12
-[2018.04.27-20.00.12:821][282]LogWorld: Bringing up level for play took: 0.003587
-[2018.04.27-20.00.12:822][282]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstPersonExampleMap 0
-[2018.04.27-20.00.12:822][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-20.00.12:825][282]LogBlueprintUserMessages: [NPC_AI_BP_C_0] Ue4ASP_Character_630 Ue4ASP_Character2 AISense_Sight
-[2018.04.27-20.00.12:825][282]LogBlueprintUserMessages: [NPC_AI_BP_C_0] Ue4ASP_Character_630 Player AISense_Sight
-[2018.04.27-20.00.12:854][283]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.12:878][286]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.12:903][289]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.12:928][292]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.12:953][295]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.12:978][298]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:003][301]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:028][304]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:053][307]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:078][310]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:103][313]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:128][316]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:153][319]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:178][322]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:203][325]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:228][328]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:253][331]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:278][334]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:303][337]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:328][340]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:353][343]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:378][346]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:403][349]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:428][352]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:453][355]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:478][358]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:503][361]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:528][364]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:553][367]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:578][370]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:603][373]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:628][376]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:653][379]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:678][382]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:703][385]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:728][388]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:753][391]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:778][394]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:803][397]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:828][400]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:853][403]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:878][406]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:903][409]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:928][412]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:953][415]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.13:978][418]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:003][421]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:028][424]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:053][427]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:078][430]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:103][433]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:104][433]LogBlueprintUserMessages: [NPC_AI_BP_C_1] Ue4ASP_Character2_110 Player AISense_Sight
-[2018.04.27-20.00.14:128][436]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:153][439]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:178][442]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:203][445]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:228][448]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:253][451]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:278][454]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:303][457]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:329][460]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:354][463]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:379][466]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:404][469]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:429][472]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:429][472]LogBlueprintUserMessages: [NPC_AI_BP_C_1] Ue4ASP_Character2_110 Ue4ASP_Character AISense_Sight
-[2018.04.27-20.00.14:453][475]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:479][478]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:503][481]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:528][484]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:553][487]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:578][490]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:603][493]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:628][496]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:653][499]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:679][502]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:704][505]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:729][508]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:769][511]LogTemp: Warning: A guard is missing Patrol Points
-[2018.04.27-20.00.14:769][511]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-20.00.14:840][511]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-20.00.15:838][615]LogEditorViewport: Clicking on Actor (LMB): Ue4ASP_Character_C (Ue4ASP_Character2)
-[2018.04.27-20.00.19:182][  1]Cmd: TRANSACTION UNDO
-[2018.04.27-20.00.19:182][  1]LogEditorTransaction: Undo Clicking on Actors
-[2018.04.27-20.00.19:485][  1]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.04.27-20.00.19:487][  1]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
-[2018.04.27-20.00.19:488][  1]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2018.04.27-20.00.20:162][ 70]Cmd: TRANSACTION UNDO
-[2018.04.27-20.00.20:162][ 70]LogEditorTransaction: Undo Create Actors
-[2018.04.27-20.00.20:503][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_5:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
-[2018.04.27-20.00.20:505][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.Actor_1.DebugSkelMeshComponent_1) Already registered. Aborting.
-[2018.04.27-20.00.20:506][ 70]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_2.DebugSkelMeshComponent_2) Already registered. Aborting.
-[2018.04.27-20.01.29:363][987]BlueprintLog: New page: Compile Ue4ASP_Character
-[2018.04.27-20.01.29:410][987]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
-[2018.04.27-20.01.29:808][987]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0947.79] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 444 ms] (/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character)
-[2018.04.27-20.01.30:586][ 46]LogSavePackage: Save=62.48ms
-[2018.04.27-20.01.30:586][ 46]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/Ue4ASP_Character259C022B43A3DC8AAF3E3682569E4811.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset'
-[2018.04.27-20.01.30:589][ 46]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Behavior/Ue4ASP_Character.uasset
-[2018.04.27-20.01.32:889][284]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.27-20.01.32:911][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-20.01.32:912][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.27-20.01.32:912][284]PIE: New page: PIE session: FirstPersonExampleMap (Apr 27, 2018, 2:01:32 PM)
-[2018.04.27-20.01.32:912][284]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_FirstPersonExampleMap
-[2018.04.27-20.01.32:930][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018284s)
-[2018.04.27-20.01.32:931][284]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2018.04.27-20.01.32:932][284]LogPlayLevel: PIE: World Init took: (0.000917s)
-[2018.04.27-20.01.32:932][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap to /Game/Levels/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019862s)
-[2018.04.27-20.01.32:961][284]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.04.27-20.01.32:971][284]LogInit: FAudioDevice initialized.
-[2018.04.27-20.01.33:004][284]LogLoad: Game class is 'TestingGroundsGameMode'
-[2018.04.27-20.01.33:008][284]LogWorld: Bringing World /Game/Levels/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2018.04.27-17.01.33
-[2018.04.27-20.01.33:009][284]LogWorld: Bringing up level for play took: 0.004213
-[2018.04.27-20.01.33:011][284]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_FirstPersonExampleMap 0.189
-[2018.04.27-20.01.33:011][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-20.01.33:013][284]LogBlueprintUserMessages: [NPC_AI_BP_C_0] Ue4ASP_Character_630 Player AISense_Sight
-[2018.04.27-20.01.34:473][457]LogBlueprintUserMessages: [NPC_AI_BP_C_0] Ue4ASP_Character_630 Player AISense_Sight
-[2018.04.27-20.01.38:387][920]LogBlueprintUserMessages: [NPC_AI_BP_C_0] Ue4ASP_Character_630 Player AISense_Sight
-[2018.04.27-20.01.39:900][101]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-20.01.39:935][101]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/Levels/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2018.04.27-20.03.29:163][684]LogSavePackage: Save=583.63ms
-[2018.04.27-20.03.29:163][684]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/FirstPersonExampleMapB4ECB6194477AD5441DF958AB3726F8C.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Levels/FirstPersonExampleMap.umap'
-[2018.04.27-20.03.29:168][684]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Levels/FirstPersonExampleMap.umap
-[2018.04.27-20.03.29:200][684]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 0.739
-[2018.04.27-20.03.29:221][684]LogSavePackage: Save=5.77ms
-[2018.04.27-20.03.29:221][684]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/UE4_Mannequin_SkeletonCEFD3D644BA2B7119FDE0E8FEB50A98A.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Character/Mesh/UE4_Mannequin_Skeleton.uasset'
-[2018.04.27-20.03.29:224][684]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Character/Mesh/UE4_Mannequin_Skeleton.uasset
+[2018.04.30-13.17.49:444][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-13.17.49:444][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.30-13.17.49:470][  0]LogInit: Computer: ESPN128007
+[2018.04.30-13.17.49:470][  0]LogInit: User: ESPN
+[2018.04.30-13.17.49:470][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.04.30-13.17.49:470][  0]LogInit: High frequency timer resolution =3.514609 MHz
+[2018.04.30-13.17.49:470][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.04.30-13.17.49:470][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.30-13.17.49:470][  0]LogMemory: Process Physical Memory: 281.30 MB used, 281.30 MB peak
+[2018.04.30-13.17.49:470][  0]LogMemory: Process Virtual Memory: 282.87 MB used, 282.87 MB peak
+[2018.04.30-13.17.49:470][  0]LogMemory: Physical Memory: 9567.23 MB used,  23121.25 MB free, 32688.48 MB total
+[2018.04.30-13.17.49:470][  0]LogMemory: Virtual Memory: 713.08 MB used,  23121.25 MB free, 134217728.00 MB total
+[2018.04.30-13.17.49:719][  0]LogInit: Using OS detected language (en-US).
+[2018.04.30-13.17.49:719][  0]LogInit: Using OS detected locale (en-US).
+[2018.04.30-13.17.49:765][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.04.30-13.17.52:063][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.30-13.17.52:117][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.04.30-13.17.52:118][  0]LogD3D11RHI:       8079/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.04.30-13.17.52:119][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.04.30-13.17.52:120][  0]LogD3D11RHI:       0/0/16344 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.04.30-13.17.52:120][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.30-13.17.52:127][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.30-13.17.52:127][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.30-13.17.52:127][  0]LogWindows: EnumDisplayDevices:
+[2018.04.30-13.17.52:127][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.04.30-13.17.52:128][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.04.30-13.17.52:128][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.30-13.17.52:128][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.04.30-13.17.52:128][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.04.30-13.17.52:128][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.04.30-13.17.52:128][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.04.30-13.17.52:128][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.04.30-13.17.52:128][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.30-13.17.52:158][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.30-13.17.52:175][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.30-13.17.52:262][  0]LogShaderCompilers: Guid format shader working directory is -30 characters bigger than the processId version (../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Intermediate/Shaders/WorkingDirectory/4060/).
+[2018.04.30-13.17.52:262][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ESPN/AppData/Local/Temp/UnrealShaderWorkingDir/F05505744C26A2EA8C2D2E82948EF00D/'.
+[2018.04.30-13.17.52:262][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.30-13.17.53:846][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.30-13.17.53:891][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.30-13.17.53:937][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.30-13.17.53:982][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.30-13.17.54:033][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.30-13.17.54:078][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.30-13.17.54:125][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.30-13.17.54:169][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.30-13.17.54:207][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.30-13.17.54:254][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.30-13.17.54:299][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.30-13.17.54:342][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.30-13.17.54:385][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.30-13.17.54:429][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.30-13.17.54:472][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.30-13.17.54:558][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.30-13.17.54:558][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.30-13.17.54:592][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.30-13.17.54:680][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.30-13.17.54:705][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.30-13.17.54:748][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.30-13.17.54:791][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.30-13.17.54:834][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.30-13.17.54:881][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.30-13.17.54:881][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.30-13.17.55:321][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.30-13.17.55:413][  0]LogDerivedDataCache: Loaded boot cache 0.09s 95MB C:/Users/ESPN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.30-13.17.55:413][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ESPN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.30-13.17.55:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.30-13.17.55:413][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.30-13.17.55:413][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.30-13.17.55:413][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.30-13.17.55:432][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.30-13.17.55:444][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ESPN/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.30-13.17.55:453][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.30-13.17.55:453][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.30-13.17.55:465][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-13.17.55:465][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.30-13.17.55:903][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2018.04.30-13.17.56:008][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.30-13.17.56:492][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.30-13.17.56:528][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.30-13.17.56:528][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.30-13.17.56:528][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.30-13.17.56:528][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.30-13.17.56:528][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.30-13.17.56:529][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.30-13.17.57:159][  0]LogNetVersion: TestingGrounds , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1059972000)
+[2018.04.30-13.17.57:470][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.029730 seconds
+[2018.04.30-13.17.57:475][  0]LogUObjectArray: 35418 objects as part of root set at end of initial load.
+[2018.04.30-13.17.57:475][  0]LogUObjectAllocator: 7448088 out of 0 bytes used by permanent object pool.
+[2018.04.30-13.17.57:475][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.30-13.17.57:527][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.30-13.18.01:254][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.30-13.18.01:290][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.30-13.18.02:256][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.30-13.18.02:680][  0]SourceControl: Source control is disabled
+[2018.04.30-13.18.02:680][  0]SourceControl: Source control is disabled
+[2018.04.30-13.18.02:723][  0]SourceControl: Source control is disabled
+[2018.04.30-13.18.02:765][  0]SourceControl: Source control is disabled
+[2018.04.30-13.18.03:298][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.30-13.18.03:686][  0]LogEngine: Initializing Engine...
+[2018.04.30-13.18.04:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.30-13.18.04:004][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.30-13.18.04:112][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.30-13.18.04:121][  0]LogInit: XAudio2 using 'Speakers (XSplit  Stream  Audio  Renderer)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.30-13.18.04:130][  0]LogInit: FAudioDevice initialized.
+[2018.04.30-13.18.04:220][  0]LogDerivedDataCache: Saved boot cache 0.09s 95MB C:/Users/ESPN/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.30-13.18.04:234][  0]LogInit: Texture streaming: Enabled
+[2018.04.30-13.18.04:332][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.30-13.18.04:540][  0]LogInit: Transaction tracking system initialized
+[2018.04.30-13.18.04:821][  0]BlueprintLog: New page: Editor Load
+[2018.04.30-13.18.05:644][  0]LocalizationService: Localization service is disabled
+[2018.04.30-13.18.06:321][  0]LogConsoleResponse: Display: 
+[2018.04.30-13.18.06:639][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.30-13.18.06:640][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.30-13.18.06:640][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.30-13.18.07:602][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/' took 0.02s
+[2018.04.30-13.18.07:647][  0]SourceControl: Source control is disabled
+[2018.04.30-13.18.07:647][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Levels/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.30-13.18.07:648][  0]LightingResults: New page: Lighting Build
+[2018.04.30-13.18.07:687][  0]MapCheck: New page: Map Check
+[2018.04.30-13.18.07:688][  0]LightingResults: New page: Lighting Build
+[2018.04.30-13.18.07:913][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.04.30-13.18.07:921][  0]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0020.95] Compile of Ue4ASP_Character successful, but with 1 Warning(s) [in 30 ms] (/Game/NPC/Behavior/Ue4ASP_Character.Ue4ASP_Character)
+[2018.04.30-13.18.08:262][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2018.04.30-13.18.08:274][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.30-13.18.08:636][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.30-13.18.08:699][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 62.922ms to complete.
+[2018.04.30-13.18.08:699][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.052
+[2018.04.30-13.18.08:874][  0]LogCollectionManager: Loaded 0 collections in 0.001709 seconds
+[2018.04.30-13.18.08:955][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/Collections/' took 0.01s
+[2018.04.30-13.18.08:955][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Developers/ESPN/Collections/' took 0.01s
+[2018.04.30-13.18.08:955][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Collections/' took 0.01s
+[2018.04.30-13.18.08:955][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.04.30-13.18.08:966][  0]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2385 classes and 496 folders.
+[2018.04.30-13.18.09:025][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2018.04.30-13.18.09:278][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0034 seconds. Added 0 classes and 0 folders.
+[2018.04.30-13.18.09:323][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0033 seconds. Added 1 classes and 2 folders.
+[2018.04.30-13.18.09:355][  0]LogSlate: Took 0.004133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.30-13.18.09:360][  0]LogSlate: Took 0.003272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.30-13.18.09:368][  0]LogSlate: Took 0.003966 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.30-13.18.09:374][  0]LogSlate: Took 0.003988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.04.30-13.18.09:510][  0]LogRenderer: Reallocating scene render targets to support 1184x652 Format 10 NumSamples 1 (Frame:1).
+[2018.04.30-13.18.09:662][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2018.04.30-13.18.09:662][  0]LogLoad: (Engine Initialization) Total time: 22.69 seconds
+[2018.04.30-13.18.09:662][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.30-13.18.09:663][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.04.30-13.18.09:663][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.04.30-13.18.10:038][  0]LogAssetRegistry: Asset discovery search completed in 14.1571 seconds
+[2018.04.30-13.18.10:040][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.30-13.18.10:040][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000171 seconds (updated 0 objects)
+[2018.04.30-13.18.10:041][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.30-13.18.11:008][  3]LogSlate: Took 0.004053 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.30-13.21.51:554][ 24]LogSlate: Took 0.000170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.30-13.21.51:650][ 24]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2018.04.30-13.21.51:774][ 24]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.30-13.21.52:126][ 24]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0035 seconds. Added 113 classes and 0 folders.
+[2018.04.30-13.21.52:704][ 24]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_3:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.04.30-13.21.52:902][ 24]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.30-13.21.52:967][ 24]LogSlate: Took 0.003775 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.30-13.21.53:033][ 24]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0032 seconds. Added 1 classes and 0 folders.
+[2018.04.30-13.22.05:318][384]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.04.30-13.22.05:540][384]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2018.04.30-13.22.15:128][995]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.TestingGrounds
+[2018.04.30-13.22.15:128][995]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.04.30-13.22.15:128][995]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.04.30-13.22.15:129][995]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.04.30-13.22.15:129][995]LogTemp: BranchPath = ESPN128007/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = ESPN128007/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.04.30-13.22.15:135][995]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ESPN\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.04.30-13.37.57:852][436]LogEditorTransaction: Undo Delete current selection
+[2018.04.30-13.37.57:963][436]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.Actor_1.DebugSkelMeshComponent_2) Already registered. Aborting.
+[2018.04.30-13.37.58:993][499]LogSavePackage: Save=216.69ms
+[2018.04.30-13.37.58:993][499]LogSavePackage: Moving '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/UE4ASP_HeroTPP_AnimBlueprintBE6880744EC6A14385363196FEC57162.tmp' to '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Animations/UE4ASP_HeroTPP_AnimBlueprint.uasset'
+[2018.04.30-13.37.59:000][499]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/NPC/Animations/UE4ASP_HeroTPP_AnimBlueprint.uasset
+[2018.04.30-13.38.02:880][870]BlueprintLog: New page: Compile UE4ASP_HeroTPP_AnimBlueprint
+[2018.04.30-13.38.04:922][ 32]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.30-13.38.04:923][ 32]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.04.30-13.38.05:090][ 33]Cmd: QUIT_EDITOR
+[2018.04.30-13.38.05:117][ 33]LogExit: Preparing to exit.
+[2018.04.30-13.38.05:899][ 33]LogDirectoryWatcher: A directory notification for 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/' was aborted.
+[2018.04.30-13.38.05:932][ 33]LogExit: Editor shut down
+[2018.04.30-13.38.05:937][ 33]LogExit: Transaction tracking system shut down
+[2018.04.30-13.38.06:129][ 33]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.30-13.38.06:129][ 33]LogDirectoryWatcher: A directory notification for '../../../../../../Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/' was aborted.
+[2018.04.30-13.38.06:129][ 33]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.30-13.38.06:245][ 33]LogExit: Object subsystem successfully closed.
+[2018.04.30-13.38.06:266][ 33]LogD3D11RHI: Shutdown
+[2018.04.30-13.38.06:266][ 33]LogD3D11RHI: CleanupD3DDevice
+[2018.04.30-13.38.06:352][ 33]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.30-13.38.06:366][ 33]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (534)
+[2018.04.30-13.38.06:366][ 33]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (532)
+[2018.04.30-13.38.06:366][ 33]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2018.04.30-13.38.06:366][ 33]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2018.04.30-13.38.06:366][ 33]LogModuleManager: Shutting down and abandoning module SkeletonEditor (526)
+[2018.04.30-13.38.06:366][ 33]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (524)
+[2018.04.30-13.38.06:366][ 33]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2018.04.30-13.38.06:366][ 33]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.04.30-13.38.06:366][ 33]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.04.30-13.38.06:366][ 33]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.04.30-13.38.06:367][ 33]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.04.30-13.38.06:367][ 33]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.04.30-13.38.06:367][ 33]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.04.30-13.38.06:367][ 33]LogDirectoryWatcher: A directory notification for 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Collections/' was aborted.
+[2018.04.30-13.38.06:367][ 33]LogDirectoryWatcher: A directory notification for 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Content/Developers/ESPN/Collections/' was aborted.
+[2018.04.30-13.38.06:368][ 33]LogDirectoryWatcher: A directory notification for 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Saved/Collections/' was aborted.
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (492)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module HardwareSurvey (490)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (488)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module AutomationWorker (486)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (484)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (482)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module PlacementMode (481)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (478)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (476)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (474)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (472)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (470)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module Media (469)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (466)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module CharacterAI (464)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module AudioCapture (462)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module SequenceRecorder (461)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module SmartSnapping (458)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module SessionServices (456)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module ViewportSnapping (454)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module ViewportInteraction (452)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module ClothPainter (450)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module LogVisualizer (448)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module IntroTutorials (446)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (445)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.04.30-13.38.06:368][ 33]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (434)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (432)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (430)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module InputBindingEditor (428)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module MergeActors (426)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module SizeMap (424)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module TreeMap (422)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module ReferenceViewer (420)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (418)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module LocalizationService (417)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module HardwareTargeting (414)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (412)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module UndoHistory (410)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.04.30-13.38.06:514][ 33]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.04.30-13.38.06:516][ 33]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.04.30-13.38.06:516][ 33]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.04.30-13.38.06:516][ 33]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.04.30-13.38.06:516][ 33]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.04.30-13.38.06:583][ 33]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.04.30-13.38.06:589][ 33]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.04.30-13.38.06:589][ 33]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.04.30-13.38.06:589][ 33]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.04.30-13.38.06:589][ 33]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.04.30-13.38.06:589][ 33]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.04.30-13.38.06:589][ 33]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.04.30-13.38.06:589][ 33]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module LauncherPlatform (342)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module AnalyticsET (340)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module PortalServices (338)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module PortalRpc (336)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module MessagingRpc (334)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module AIModule (332)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module GameplayDebugger (331)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module AITestSuite (329)
+[2018.04.30-13.38.06:590][ 33]LogModuleManager: Shutting down and abandoning module ProfilerService (326)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module TaskGraph (324)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (318)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (316)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module CableComponent (314)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (312)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module AndroidPermission (310)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (306)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module HTML5Networking (304)
+[2018.04.30-13.38.06:829][ 33]LogModuleManager: Shutting down and abandoning module AlembicImporter (302)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module AlembicLibrary (301)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module GeometryCache (300)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (299)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (294)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module PluginBrowser (292)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (290)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (288)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module DesktopPlatform (287)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module UObjectPlugin (284)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (282)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (280)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module GitSourceControl (278)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module SourceControl (277)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (274)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (272)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (270)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module Paper2DEditor (268)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module MeshPaint (267)
+[2018.04.30-13.38.06:830][ 33]LogModuleManager: Shutting down and abandoning module LevelEditor (265)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (264)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.04.30-13.38.06:831][ 33]LogDirectoryWatcher: A directory notification for 'C:/Users/ESPN/Documents/GitHub/TestingGrounds/TestingGrounds/Binaries/Win64' was aborted.
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module TestingGrounds (256)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (254)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (252)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module PhysXVehicles (250)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (248)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (246)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (244)
+[2018.04.30-13.38.06:831][ 33]LogModuleManager: Shutting down and abandoning module UdpMessaging (242)
+[2018.04.30-13.38.06:932][ 33]LogModuleManager: Shutting down and abandoning module TcpMessaging (240)
+[2018.04.30-13.38.07:033][ 33]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (238)
+[2018.04.30-13.38.07:033][ 33]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (236)
+[2018.04.30-13.38.07:033][ 33]LogModuleManager: Shutting down and abandoning module FacialAnimation (234)
+[2018.04.30-13.38.07:033][ 33]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (232)
+[2018.04.30-13.38.07:033][ 33]LogModuleManager: Shutting down and abandoning module GraphEditor (231)
+[2018.04.30-13.38.07:033][ 33]LogModuleManager: Shutting down and abandoning module ContentBrowser (229)
+[2018.04.30-13.38.07:034][ 33]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (226)
+[2018.04.30-13.38.07:034][ 33]LogModuleManager: Shutting down and abandoning module Paper2D (224)
+[2018.04.30-13.38.07:034][ 33]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (222)
+[2018.04.30-13.38.07:034][ 33]LogModuleManager: Shutting down and abandoning module WmfMedia (220)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module PacketHandler (218)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (216)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (214)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module Overlay (212)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module OverlayEditor (211)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module VREditor (206)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module StringTableEditor (204)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (202)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (200)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module FunctionalTesting (198)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (196)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (195)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module SlateReflector (182)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module Slate (180)
+[2018.04.30-13.38.07:036][ 33]LogModuleManager: Shutting down and abandoning module EditorStyle (178)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module MRMesh (176)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module LevelSequence (158)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module MeshUtilities (156)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (155)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (154)
+[2018.04.30-13.38.07:038][ 33]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
+[2018.04.30-13.38.07:039][ 33]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
+[2018.04.30-13.38.07:039][ 33]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
+[2018.04.30-13.38.07:039][ 33]LogModuleManager: Shutting down and abandoning module MaterialBaking (145)
+[2018.04.30-13.38.07:039][ 33]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (142)
+[2018.04.30-13.38.07:039][ 33]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2018.04.30-13.38.07:053][ 33]LogDerivedDataCache: Shutdown
+[2018.04.30-13.38.07:053][ 33]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
+[2018.04.30-13.38.07:053][ 33]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
+[2018.04.30-13.38.07:053][ 33]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (135)
+[2018.04.30-13.38.07:053][ 33]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (133)
+[2018.04.30-13.38.07:053][ 33]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (131)
+[2018.04.30-13.38.07:053][ 33]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (129)
+[2018.04.30-13.38.07:053][ 33]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (127)
+[2018.04.30-13.38.07:053][ 33]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (125)
+[2018.04.30-13.38.07:053][ 33]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (123)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (121)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (119)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module ImageWrapper (118)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (115)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (113)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (111)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (109)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (107)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (105)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (103)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (101)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (99)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module Messaging (97)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (95)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (93)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (91)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (89)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (87)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (85)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (83)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (81)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (79)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (77)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (67)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (65)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (63)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (61)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (59)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module InputCore (56)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module Settings (54)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module PhysXCooking (52)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.30-13.38.07:054][ 33]LogOnline: Display: Unloading online subsystem: NULL
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.30-13.38.07:054][ 33]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.30-13.38.07:054][ 33]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.30-13.38.07:054][ 33]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCEC4D605-4E5C-3BB8-ED2F-F6A529BB02E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=80b925b54fb0f2e1a7636199da1aaec2%7C3075bf13870446d19392ecf888bb8685%7Cb5661c7e-f4a9-4006-9fba-6f0f5a9be1d5&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.30-13.38.07:080][ 33]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.30-13.38.07:081][ 33]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.04.30-13.38.07:081][ 33]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.04.30-13.38.07:081][ 33]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.04.30-13.38.07:081][ 33]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.04.30-13.38.07:081][ 33]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.04.30-13.38.07:081][ 33]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.04.30-13.38.07:081][ 33]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.30-13.38.07:083][ 33]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.30-13.38.07:087][ 33]LogExit: Exiting.
+[2018.04.30-13.38.07:103][ 33]Log file closed, 04/30/18 10:38:07
