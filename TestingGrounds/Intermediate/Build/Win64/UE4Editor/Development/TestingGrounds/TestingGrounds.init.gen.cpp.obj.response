@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source"
-/I C:\Users\ESPN\Documents\GitHub\TestingGrounds\TestingGrounds\Source
-/I C:\Users\ESPN\Documents\GitHub\TestingGrounds\TestingGrounds\Intermediate\Build\Win64\UE4Editor\Inc\TestingGrounds
-/I C:\Users\ESPN\Documents\GitHub\TestingGrounds\TestingGrounds\Source\TestingGrounds
+/I "C:\Users\Seth\Documents\Unreal Projects\TestingGrounds\TestingGrounds\Source"
+/I "C:\Users\Seth\Documents\Unreal Projects\TestingGrounds\TestingGrounds\Intermediate\Build\Win64\UE4Editor\Inc\TestingGrounds"
+/I "C:\Users\Seth\Documents\Unreal Projects\TestingGrounds\TestingGrounds\Source\TestingGrounds"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Core\Public\Async"
@@ -355,9 +355,9 @@
 /FI"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\ESPN\Documents\GitHub\TestingGrounds\TestingGrounds\Intermediate\Build\Win64\UE4Editor\Inc\TestingGrounds\TestingGrounds.init.gen.cpp"
-/FI"C:\Users\ESPN\Documents\GitHub\TestingGrounds\TestingGrounds\Intermediate\Build\Win64\UE4Editor\Development\TestingGrounds\Definitions.TestingGrounds.h"
-/Fo"C:\Users\ESPN\Documents\GitHub\TestingGrounds\TestingGrounds\Intermediate\Build\Win64\UE4Editor\Development\TestingGrounds\TestingGrounds.init.gen.cpp.obj"
+"C:\Users\Seth\Documents\Unreal Projects\TestingGrounds\TestingGrounds\Intermediate\Build\Win64\UE4Editor\Inc\TestingGrounds\TestingGrounds.init.gen.cpp"
+/FI"C:\Users\Seth\Documents\Unreal Projects\TestingGrounds\TestingGrounds\Intermediate\Build\Win64\UE4Editor\Development\TestingGrounds\Definitions.TestingGrounds.h"
+/Fo"C:\Users\Seth\Documents\Unreal Projects\TestingGrounds\TestingGrounds\Intermediate\Build\Win64\UE4Editor\Development\TestingGrounds\TestingGrounds.init.gen.cpp.obj"
 /TP
 /GR-
 /W4
