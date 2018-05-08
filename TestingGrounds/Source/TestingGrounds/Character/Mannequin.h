@@ -32,6 +32,8 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Weapon")
 	void PullTrigger();
 
+	virtual void UnPossessed() override;
+
 private:
 	// Pawn mesh: 1st person view, arms only seen by self
 	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
