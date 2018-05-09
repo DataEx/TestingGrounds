@@ -415,8 +415,10 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\TestingGrounds\TestingGrounds.Build.cs" />
+    <ClCompile Include="..\..\Source\TestingGrounds\InfiniteTerrainGameMode.cpp" />
     <ClCompile Include="..\..\Source\TestingGrounds\Terrain\Tile.cpp" />
     <ClCompile Include="..\..\Source\TestingGrounds\TestingGrounds.cpp" />
+    <ClInclude Include="..\..\Source\TestingGrounds\InfiniteTerrainGameMode.h" />
     <ClInclude Include="..\..\Source\TestingGrounds\Terrain\Tile.h" />
     <ClInclude Include="..\..\Source\TestingGrounds\TestingGrounds.h" />
     <ClCompile Include="..\..\Source\TestingGrounds\TestingGroundsGameMode.cpp" />

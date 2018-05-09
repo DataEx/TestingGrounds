@@ -111,10 +111,16 @@
     <ClInclude Include="..\..\Source\TestingGrounds\Terrain\Tile.h">
       <Filter>Source\TestingGrounds\Terrain</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TestingGrounds\InfiniteTerrainGameMode.h">
+      <Filter>Source\TestingGrounds</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\TestingGrounds\Terrain\Tile.cpp">
       <Filter>Source\TestingGrounds\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestingGrounds\InfiniteTerrainGameMode.cpp">
+      <Filter>Source\TestingGrounds</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
