@@ -13,46 +13,55 @@ ATile::ATile()
 
 }
 
-void ATile::PlaceActors(int MinSpawn, int MaxSpawn)
+void ATile::PlaceActors(TSubclassOf<AActor> ToSpawn, int MinSpawn, int MaxSpawn, float Radius = 500.0f, float MinScale = 1.0f, float MaxScale = 1.0f)
 {
-
-	if (SpawnableActors.Num() <= 0) {
-		UE_LOG(LogTemp, Warning, TEXT("SpawnableActors is empty"));
-		return;
-	}
-
-
 	int NumberToSpawn = FMath::RandRange(MinSpawn, MaxSpawn);
 
+	for (int i = 0; i < NumberToSpawn; i++) {
+		float ActorScale = FMath::RandRange(MinScale, MaxScale);
+
+		// Generate spawn location
+		FVector SpawnPoint;
+		bool CanSpawn = FindEmptyLocation(SpawnPoint, Radius * ActorScale);
+		if (!CanSpawn) { continue; }
+
+		// Spawn actor in generated transform
+		float RandRotation = FMath::RandRange(-180.0f, 180.0f);
+
+		PlaceActor(ToSpawn, SpawnPoint, RandRotation, ActorScale);
+	}
+}
+
+bool ATile::FindEmptyLocation(FVector & SpawnPoint, float Radius)
+{
 	FVector MinPoint(0, -2000, 0);
 	FVector MaxPoint(4000, 2000, 0);
 	FBox Bounds(MinPoint, MaxPoint);
-	for (int i = 0; i < NumberToSpawn; i++) {
-		
-		// Generate spawn location
-		FVector SpawnPoint = FMath::RandPointInBox(Bounds);
-
-		// Determine which actor to spawn
-		int Index = FMath::RandRange(0, SpawnableActors.Num() - 1);
-		TSubclassOf<AActor> ToSpawn = SpawnableActors[Index];
-		if (ToSpawn == nullptr) { 
-			UE_LOG(LogTemp, Warning, TEXT("No valid actor at SpawnableActors index: %d"), Index);
-			continue;
+	const int NUM_ATTEMPTS = 100;
+	
+	for (int i = 0; i < NUM_ATTEMPTS; i++) {
+		FVector SpawnPointCandidate = FMath::RandPointInBox(Bounds);
+		if (CanSpawnAtLocation(SpawnPointCandidate, Radius)) {
+			SpawnPoint = SpawnPointCandidate;
+			return true;
 		}
-
-		// Spawn actor in generated position
-		AActor* Spawned = GetWorld()->SpawnActor<AActor>(ToSpawn);
-		Spawned->AttachToActor(this, FAttachmentTransformRules(EAttachmentRule::KeepWorld, false));
-		Spawned->SetActorRelativeLocation(SpawnPoint);
 	}
+	return false;
+}
+
+void ATile::PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnPoint, float Rotation, float Scale)
+{
+	AActor* Spawned = GetWorld()->SpawnActor<AActor>(ToSpawn);
+	Spawned->AttachToActor(this, FAttachmentTransformRules(EAttachmentRule::KeepWorld, false));
+	Spawned->SetActorRelativeLocation(SpawnPoint);
+	Spawned->SetActorRotation(FRotator(0, Rotation, 0));
+	Spawned->SetActorScale3D(FVector(Scale));
 }
 
 // Called when the game starts or when spawned
 void ATile::BeginPlay()
 {
 	Super::BeginPlay();
-
-	CastSphere(GetActorLocation(), 300);
 }
 
 // Called every frame
@@ -62,32 +71,21 @@ void ATile::Tick(float DeltaTime)
 
 }
 
-bool ATile::CastSphere(FVector Location, float Radius)
+bool ATile::CanSpawnAtLocation(FVector Location, float Radius)
 {
 	FHitResult HitResult;
+	FVector GlobalLocation = ActorToWorld().TransformPosition(Location);
+
 	bool HasHit = GetWorld()->SweepSingleByChannel(
 		HitResult,
-		Location,
-		Location,
+		GlobalLocation,
+		GlobalLocation,
 		FQuat::Identity,
 		ECollisionChannel::ECC_GameTraceChannel2,
 		FCollisionShape::MakeSphere(Radius)
 	);
 
-	FColor DebugColor = HasHit ? FColor(255, 0, 0) : FColor(0, 255, 0);
-
-	DrawDebugCapsule(
-		GetWorld(),
-		Location,
-		0,
-		Radius,
-		FQuat::Identity,
-		DebugColor,
-		true,
-		100
-	);
-
-
-	return HasHit;
+	return !HasHit;
 }
+
 

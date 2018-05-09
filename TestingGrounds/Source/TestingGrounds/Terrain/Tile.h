@@ -16,7 +16,7 @@ public:
 	ATile();
 
 	UFUNCTION(BlueprintCallable, Category = "Terrain")
-	void PlaceActors(int MinSpawn, int MaxSpawn);
+	void PlaceActors(TSubclassOf<AActor> ToSpawn, int MinSpawn, int MaxSpawn, float Radius, float MinScale, float MaxScale);
 
 protected:
 	// Called when the game starts or when spawned
@@ -26,10 +26,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
-	TArray<TSubclassOf<AActor>> SpawnableActors;
-
 private:
-	bool CastSphere(FVector Location, float Radius);
-
+	bool CanSpawnAtLocation(FVector Location, float Radius);
+	bool FindEmptyLocation(FVector& SpawnPoint, float Radius);
+	void PlaceActor(TSubclassOf<AActor> ToSpawn, FVector SpawnPoint, float Rotation, float Scale);
 };
