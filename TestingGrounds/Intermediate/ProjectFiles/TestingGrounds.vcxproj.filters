@@ -114,12 +114,24 @@
     <ClInclude Include="..\..\Source\TestingGrounds\InfiniteTerrainGameMode.h">
       <Filter>Source\TestingGrounds</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\TestingGrounds\Terrain\GrassComponent.h">
+      <Filter>Source\TestingGrounds\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TestingGrounds\ActorPool.h">
+      <Filter>Source\TestingGrounds</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\TestingGrounds\Terrain\Tile.cpp">
       <Filter>Source\TestingGrounds\Terrain</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\TestingGrounds\InfiniteTerrainGameMode.cpp">
+      <Filter>Source\TestingGrounds</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestingGrounds\Terrain\GrassComponent.cpp">
+      <Filter>Source\TestingGrounds\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\TestingGrounds\ActorPool.cpp">
       <Filter>Source\TestingGrounds</Filter>
     </ClCompile>
   </ItemGroup>
